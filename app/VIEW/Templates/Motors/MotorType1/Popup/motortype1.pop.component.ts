@@ -1,6 +1,6 @@
 import {Component} from 'angular2/core'; //Import to be able to use annotations
 //Import model file for MotorType1
-import {MotorType1Model} from './motortype1.model';
+import {MotorType1Model} from '../motortype1.model';
 
 @Component({
     selector: 'motortype1',

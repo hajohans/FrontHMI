@@ -13,7 +13,6 @@ import {MotorType1Component} from '../../Templates/Motors/MotorType1/motortype1.
 export class RoughneckComponent{
     //Page contains list of active object and creates the subscription?
     //Propertybinding test tag
-    instMotor1: string ="Tag sendt fra RN bildet";
     
     mainHeading = AppConfig.RN_PAGE;
 

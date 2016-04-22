@@ -15,6 +15,7 @@
     <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
     <!--1b. The Angular Component Router is an optional service. It is not part of the Angular 2 core-->
     <script src="node_modules/angular2/bundles/router.dev.js"></script>
+    <script src="node_modules/angular2-websocket/angular2-websocket.js"></script>
     <!--1c. Added additional bootstrap library, for enhancing CSS styling-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- 2. Configure SystemJS -->
@@ -25,6 +26,9 @@
             format: 'register',
             defaultExtension: 'js'
           }
+        },
+        map: {
+            'angular2-websocket/angular2-websocket': 'node_modules/angular2-websocket/angular2-websocket.js'
         }
       });
       System.import('app/main')

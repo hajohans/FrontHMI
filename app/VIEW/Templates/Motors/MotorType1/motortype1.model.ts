@@ -40,11 +40,11 @@ export class MotorType1Model {
     _start: boolean;
     _run: boolean;
   
-  constructor(id : number, tag: string) 
+  constructor(id? : number, tag?: string) 
   {
-     this._id = id;
+     this._id = id || 0;
      this._tag = tag;
      this._start = false;
      this._run = false;
-     }
+   }
 }
