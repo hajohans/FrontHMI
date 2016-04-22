@@ -4,11 +4,11 @@ Based on [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.ht
 
 
 
-## Create a new project based on the QuickStart
+## Create a new Clone project
 
-Clone this repo into new project folder (e.g., `my-proj`).
+Clone this repo into new project folder
 ```bash
-git clone  https://github.com/angular/quickstart  my-proj
+git clone https://github.com/hajohans/FrontHMI.git 
 cd my-proj
 ```
 
