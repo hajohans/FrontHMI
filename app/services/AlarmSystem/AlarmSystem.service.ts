@@ -1,0 +1,1 @@
+//Responsible for resding the alarms from alarm DB

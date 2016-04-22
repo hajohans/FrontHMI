@@ -1,0 +1,12 @@
+.form-control{
+   /*background: url(app/VIEW/Templates/recources/new_arrow.png) no-repeat right #ddd;*/
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 30px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 45px;
+}
+

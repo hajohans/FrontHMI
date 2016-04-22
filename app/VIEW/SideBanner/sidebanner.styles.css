@@ -1,0 +1,14 @@
+#sidebanner {
+    color: black;
+    text-align: center;
+}
+
+.row{
+    
+    height: 20%;
+    border-top: solid;  
+}
+
+.col-md-6{
+    width: 50%;
+}
